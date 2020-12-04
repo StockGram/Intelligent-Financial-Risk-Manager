@@ -1,15 +1,20 @@
-# Deep Reinforcement Learning for Credit Card Fraud Detection
+# Financial Risk Management via Deep Reinforcement Learning
 
+## Overview
+
+Financial risk management is the practice of protecting economic value in a firm by using financial instruments to manage exposure to risk: operational risk, credit risk and market risk, foreign exchange risk, shape risk, volatility risk, liquidity risk, inflation risk, business risk, legal risk, reputational risk, sector risk etc. In this repo, we aim to target each risk using deep reinforcement learning algorithms. 
+
+## OpenAI Gym
 
 * [How to create new gym environment in openai](https://github.com/openai/gym/blob/master/docs/creating-environments.md)
 
-# Installation 
+## Installation 
 ```
 cd gym-fraud
 pip install -e .
 ```
 
-# Usage 
+## Usage 
 
 **Step - 1 :** Create a directory named *dataset* in your folder containing the main program.<br>
 **Step - 2 :** Download [Kaggle's Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) and place it inside *dataset folder*<br>
@@ -21,7 +26,7 @@ import gym_fraud
 env = gym.make('fraud-v0')
 ```
 
-# Overview
+## Overview : Credit Risk
 Due to the rapid advancement in electronic commerce technology, the use of credit cards has
 dramatically increased. The increasing popularity of credit
 card as a payment mode for both online and regular
@@ -45,12 +50,12 @@ Results show that our model successfully classified
 fraudulent and non-fraudulent transactions and has
 achieved state-of-the-art performance.
 
-# Algorithm
+## Algorithm
 
 <img src="./images/algo_1.png" width="60%" height="80%"></img>
 <img src="./images/algo_2.png" width="60%" height="80%"></img>
 
-# Results and Evaluation
+## Results and Evaluation
 
 Table 1 represents the accuracy score of various models that have been pro- posed for classifying fraudulent and non-fraudulent transactions. After ex- tensive training, our model was able to correctly classify fraudulent and non- fraudulent transaction with 90.29% accuracy on test data. <br><br>
 A comparison of classification accuracy of multiple models discussed in section 4 against our DQN-based model is elaborated in Table 1.<br><br>
@@ -58,6 +63,6 @@ According to the results, artificial neural networks perform the best when given
 
 <img src="./images/table_1.png" width="60%" height="80%"></img>
 
-# Research Paper
+## Research Paper
 
-<p style="text-color:red">In review.</p>
+Under review.
